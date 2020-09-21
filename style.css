@@ -4,11 +4,6 @@ body, html {
     background-image: url("./image/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid red;
   }
 
-  h1 {
-      border: 1px solid blue;
-      /* margin-top: 20px; */
-  }
-
+  
