@@ -16,7 +16,11 @@ function checkNumber(){
 
 
    if(userInputElement.value == random_number){
-       alert("You are the winner!");
+       alert("You are the winner! Guess time: "+ ++guess_count);
+       guess_count = 0;
+
+       const choice = confirm("Game agein?");     // tekrar oynamak istersem true istemezsem false dondurur
+       console.log(choice);                  
    } 
    else if(userInputElement.value == ""){      
     answerLabelElement.innerText = "Enter a number!";
